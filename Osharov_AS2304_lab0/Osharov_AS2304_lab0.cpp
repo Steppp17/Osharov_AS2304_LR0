@@ -6,6 +6,11 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    int x;
+    std::cin >> x;
+    if (x != 0)
+        std::cout << 10 / x;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
